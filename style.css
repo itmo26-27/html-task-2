@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: whitesmoke;
+    font:
+        16px/1.6 system-ui,
+        sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 1rem 2rem;
+    background: white;
+    border-bottom: 1px solid gray;
+}
+
+article {
+    display: flow-root;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 0rem 1.5rem;
+    background: white;
+}
+
+h1 {
+    overflow-wrap: break-word;
+}
+
+figure {
+    float: left;
+    position: relative;
+    margin: 0 1rem 1rem 0;
+}
+
+img {
+    display: block;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    background: red;
+    color: white;
+}
+
+footer {
+    padding: 1rem 2rem;
+    background: dimgray;
+    color: white;
+}
